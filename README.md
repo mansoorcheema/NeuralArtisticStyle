@@ -1,7 +1,7 @@
 # NeuralArtisticStyle
 Implementation of Neural Art Deep Learning paper.(https://arxiv.org/abs/1508.06576).
 This very simple and nice algorithm describes the process how we can mix the content of one image with the style of another image to generate new artisitic images (with content coming from our chosen image). Most specifically, using this algorithm we can represent the content of an image as painted by a famous artist like \"Picasso\". This is done by creating a new image via merging the content of one image and style from another image. 
- ** _Content Image+Style Image = Resultant Image_**
+ **_Content Image+Style Image = Resultant Image_**
 ### Content Image
 <img src="golden_gate.jpg" width="200px" caption="Conent">
 ### Style Image
