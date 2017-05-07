@@ -4,10 +4,10 @@ This very simple and nice algorithm describes the process how we can mix the con
 
 **_Content Image+Style Image = Resultant Image_**
 ### Content Image
-<img src="golden_gate.jpg" width="200px" caption="Conent">
+<img src="golden_gate.jpg" width="200px" caption="Conent"/>
 ### Style Image
-<img src="frida_kahlo.jpg" width="200px"> 
+<img src="frida_kahlo.jpg" width="200px"/> 
 ### Resultant Image
-<img src="golden_gate_kahlo.png" width="200px">
+<img src="golden_gate_kahlo.png" width="200px"/>
 
 **Transfer Learning** For representing the content and style of given images we will make use of already learned weight of a [deep network](http://arxiv.org/pdf/1409.1556.pdf) (Please read this beautifully written [paper](http://arxiv.org/abs/1508.06576) to get the complete understanding of the algorithm). For this regard, you will download already trained 19-Layers deep neural network (vgg) model and plug cost functions at specific layers of this already trained model and rerun the back-propogation algorithm to learn the merging weights, content and style representation via minimizing a loss function. You can download the learned model from following [link](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat)".
